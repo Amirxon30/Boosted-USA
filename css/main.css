@@ -1,0 +1,489 @@
+@font-face {
+  font-family: Roboto-regular;
+  src: url(../fonts/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: Roboto-bold;
+  src: url(../fonts/Roboto-Bold.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  min-width: 100vh;
+}
+.container header .announs {
+  width: 100%;
+  height: 29px;
+  background-color: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container header .announs .announs-title {
+  font-family: Roboto-regular;
+  font-size: 12px;
+  color: #fbfbfb;
+}
+.container header .navbar {
+  width: 100%;
+  height: 66px;
+  padding: 15px 11px;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+.container header .navbar ul {
+  display: flex;
+  gap: 22px;
+}
+.container header .navbar ul li {
+  list-style: none;
+}
+.container header .navbar ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: Roboto-regular;
+  font-size: 18px;
+  color: #000000;
+}
+.container header .navbar .cart {
+  display: flex;
+  gap: 11px;
+}
+.container header .top-title {
+  width: 100%;
+  height: 893px;
+}
+.container header .top-title .top-bg {
+  height: 810px;
+  text-align: center;
+  background-image: url(../media/bg1.png);
+  background-position: center;
+  background-size: cover;
+  padding-top: 53px;
+}
+.container header .top-title .top-bg .top-bg-title {
+  margin: 0px 0px 14px 0px;
+  font-family: Roboto-regular;
+  font-size: 44px;
+  color: #000000;
+}
+.container header .top-title .top-bg .top-bg-desc {
+  font-family: Roboto-regular;
+  font-size: 15px;
+  color: #000000;
+  margin-bottom: 22px;
+}
+.container header .top-title .top-bg .top-bg-btns {
+  display: flex;
+  justify-content: center;
+  gap: 22px;
+}
+.container header .top-title .top-bg .top-bg-btns .top-btn1 a {
+  padding: 5px 47px;
+  text-decoration: none;
+  font-family: Roboto-regular;
+  font-size: 15px;
+  color: #ffffff;
+  background-color: #ff4a32;
+  border-radius: 35px;
+}
+.container header .top-title .top-bg .top-bg-btns .top-btn1 a:hover {
+  transition: all 0.2s;
+  background-color: #5e5e5e;
+}
+.container header .top-title .top-bg .top-bg-btns .top-btn2 a {
+  padding: 5px 47px;
+  text-decoration: none;
+  font-family: Roboto-regular;
+  font-size: 15px;
+  color: #ffffff;
+  background-color: #ff4a32;
+  border-radius: 35px;
+}
+.container header .top-title .top-bg .top-bg-btns .top-btn2 a:hover {
+  transition: all 0.2s;
+  background-color: #5e5e5e;
+}
+.container header .top-title .top-companies {
+  width: 100%;
+  height: 83px;
+  background-color: #000000;
+  border: 1px solid black;
+  padding: 18px 195px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container main .title2 {
+  width: 100%;
+  height: 834px;
+  text-align: center;
+}
+.container main .title2 .title2-title {
+  font-family: Roboto-regular;
+  font-size: 32px;
+  color: #000000;
+  margin: 52px 17px;
+}
+.container main .title2 .title2-desc {
+  margin: auto;
+  width: 685px;
+  font-family: Roboto-regular;
+  font-size: 15px;
+  color: #000000;
+  margin-bottom: 72px;
+}
+.container main .title2 .title2-img {
+  display: flex;
+  gap: 22px;
+  align-items: center;
+  justify-content: center;
+}
+.container main .title2 .title2-img a {
+  text-decoration: none;
+}
+.container main .title2 .title2-img .title2-img1 {
+  width: 580px;
+  height: 580px;
+  background-image: url(../media/img1.png);
+  text-decoration: none;
+}
+.container main .title2 .title2-img .title2-img1 img {
+  margin-top: 224px;
+}
+.container main .title2 .title2-img .title2-img1 .img-title {
+  font-family: Roboto-regular;
+  font-size: 25px;
+  color: #ffffff;
+  margin: 11px 14px;
+}
+.container main .title2 .title2-img .title2-img1 .img-desc {
+  font-family: Roboto-regular;
+  font-size: 18px;
+  color: #ffffff;
+}
+.container main .title2 .title2-img .title2-img2 {
+  width: 580px;
+  height: 580px;
+  background-image: url(../media/img2.png);
+}
+.container main .title2 .title2-img .title2-img2 img {
+  margin-top: 224px;
+}
+.container main .title2 .title2-img .title2-img2 .img-title {
+  font-family: Roboto-regular;
+  font-size: 25px;
+  color: #ffffff;
+  margin: 11px 14px;
+}
+.container main .title2 .title2-img .title2-img2 .img-desc {
+  font-family: Roboto-regular;
+  font-size: 18px;
+  color: #ffffff;
+}
+.container main .title3 {
+  width: 100%;
+  height: 736px;
+  text-align: center;
+  background-image: url(../media/bg3.png);
+  background-position: center;
+  background-size: cover;
+  padding-top: 44px;
+}
+.container main .title3 .title3-title1 {
+  font-family: Roboto-regular;
+  font-size: 15px;
+  color: #ffffff;
+  margin: 0px 0px 11px 0px;
+}
+.container main .title3 .title3-title2 {
+  font-family: Roboto-bold;
+  font-size: 45px;
+  color: #000000;
+  margin-bottom: 15px;
+}
+.container main .title3 .title3-desc {
+  width: 488px;
+  margin: auto;
+  font-family: Roboto-regular;
+  font-size: 15px;
+  color: #000000;
+  margin-bottom: 20px;
+}
+.container main .title3 .title3-btn a {
+  padding: 5px 47px;
+  text-decoration: none;
+  font-family: Roboto-regular;
+  font-size: 15px;
+  color: #ffffff;
+  background-color: #ff4a32;
+  border-radius: 35px;
+}
+.container main .title3 .title3-btn a:hover {
+  transition: all 0.2s;
+  background-color: #5e5e5e;
+}
+.container main .title4 {
+  width: 100%;
+  height: 469px;
+  display: flex;
+  gap: 20px;
+  padding: 44px 0px;
+  justify-content: center;
+}
+.container main .title4 .title4-box {
+  width: 380px;
+  height: 380px;
+  padding-top: 67px;
+  margin-left: 20px;
+}
+.container main .title4 .title4-box .title4-title {
+  font-family: Roboto-regular;
+  font-size: 32px;
+  color: #000000;
+  margin-bottom: 21px;
+}
+.container main .title4 .title4-box .title4-desc {
+  width: 339px;
+  font-family: Roboto-regular;
+  font-size: 15px;
+  color: #000000;
+  line-height: 22.5px;
+  margin-bottom: 18px;
+}
+.container main .title4 .title4-box .title4-btn a {
+  padding: 5px 16px;
+  text-decoration: none;
+  font-family: Roboto-regular;
+  font-size: 15px;
+  color: #ffffff;
+  background-color: #ff4a32;
+  border-radius: 35px;
+}
+.container main .title4 .title4-box .title4-btn a:hover {
+  transition: all 0.2s;
+  background-color: #5e5e5e;
+}
+.container main .img-collection {
+  width: 100%;
+  height: 480px;
+  display: flex;
+}
+.container main .img-collection .collection-img {
+  width: 33.3%;
+  height: 480px;
+  text-align: center;
+  padding-top: 208px;
+  background-size: cover;
+}
+.container main .img-collection .collection-img .collection-title {
+  margin-bottom: 15px;
+  font-family: Roboto-regular;
+  font-size: 25px;
+  color: #ffffff;
+}
+.container main .img-collection .collection-img .collection-desc {
+  font-family: Roboto-regular;
+  font-size: 18px;
+  color: #ffffff;
+}
+.container main .img-collection .collection-img1 {
+  background-image: url(../media/img5.png);
+}
+.container main .img-collection .collection-img2 {
+  background-image: url(../media/img6.png);
+}
+.container main .img-collection .collection-img3 {
+  background-image: url(../media/img7.png);
+}
+.container main .yt-video {
+  width: 100%;
+  height: 423px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.container main .accessories {
+  position: relative;
+  width: 100%;
+  height: 401px;
+}
+.container main .accessories .accs-title {
+  font-family: Roboto-bold;
+  font-size: 32px;
+  color: #000000;
+  margin-bottom: 21px;
+  text-align: center;
+}
+.container main .accessories .accs-border {
+  margin: auto;
+  width: 70px;
+  height: 2px;
+  background-color: #CFCFCF;
+  margin-bottom: 42px;
+}
+.container main .accessories .accs-box-holder {
+  display: flex;
+  align-items: center;
+  gap: 70px;
+  text-align: center;
+  justify-content: center;
+}
+.container main .accessories .accs-box-holder a {
+  text-decoration: none;
+}
+.container main .accessories .accs-box-holder .accs-name {
+  font-family: Roboto-regular;
+  font-size: 15px;
+  color: #ff4a32;
+  margin-bottom: 3px;
+}
+.container main .accessories .accs-box-holder .accs-price {
+  font-family: Roboto-regular;
+  font-size: 14px;
+  color: #000000;
+}
+.container main .accessories .accs-box-holder .accs-price span {
+  font-family: Roboto-regular;
+  font-size: 14px;
+  color: #ff4a32;
+  margin-left: 4px;
+}
+.container main .accessories .accs-box-holder .accs-sold {
+  color: rgba(0, 0, 0, 0.3);
+}
+.container main .accessories #next1, .container main .accessories #next2 {
+  position: absolute;
+  cursor: pointer;
+}
+.container main .accessories #next1 {
+  top: 196px;
+  left: 10px;
+}
+.container main .accessories #next2 {
+  top: 196px;
+  right: 10px;
+}
+.container main .capability {
+  width: 100%;
+  height: 308px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 72px;
+  background-color: #000000;
+}
+.container main .capability .cpb-box {
+  width: 270px;
+  height: 221px;
+  text-align: center;
+}
+.container main .capability .cpb-box img {
+  margin-bottom: 25px;
+}
+.container main .capability .cpb-box .cpb-title {
+  font-family: Roboto-bold;
+  font-size: 32px;
+  color: #ffffff;
+  margin-bottom: 25px;
+}
+.container main .capability .cpb-box .cpb-desc {
+  font-family: Roboto-regular;
+  font-size: 15px;
+  color: #ffffff;
+  line-height: 22.5px;
+}
+.container main .capability .cpb-box2 {
+  width: 287px;
+}
+.container main .capability .cpb-box2 .cpb-desc {
+  width: 287px;
+}
+.container main .capability .cpb-box3 {
+  width: 278px;
+}
+.container main .capability .cpb-box3 .cpb-desc {
+  width: 278px;
+}
+.container main .capability .cpb-box4 {
+  width: 268px;
+}
+.container main .capability .cpb-box4 .cpb-desc {
+  width: 268px;
+}
+.container footer .footer-links {
+  display: flex;
+  gap: 350px;
+  justify-content: center;
+  padding: 50px 0px;
+  background-color: #F7F7F7;
+}
+.container footer .footer-links .footer-logo {
+  width: 160px;
+  height: 134px;
+  background-image: url(../media/logo2.png);
+  background-position: center;
+  background-size: cover;
+}
+.container footer .footer-links .box-title {
+  font-family: Roboto-regular;
+  font-size: 19px;
+  color: #000000;
+}
+.container footer .footer-links .footer-box1 .footer-box1-title {
+  margin-bottom: 10px;
+}
+.container footer .footer-links .footer-box1 ul li {
+  list-style: none;
+}
+.container footer .footer-links .footer-box1 ul li a {
+  text-decoration: none;
+  font-family: Roboto-regular;
+  font-size: 14px;
+  color: #000000;
+}
+.container footer .footer-links .footer-box2 .footer-box2-desc {
+  width: 367px;
+  margin: 12px 0px 19px 0px;
+  font-family: Roboto-regular;
+  font-size: 14px;
+  color: #000000;
+}
+.container footer .footer-links .footer-box2 .footer-box2-adress {
+  width: 206px;
+}
+.container footer .footer-links .footer-box2 .footer-box2-adress a {
+  text-decoration: none;
+  font-family: Roboto-regular;
+  font-size: 13px;
+  color: #000000;
+}
+.container footer .footer-bottom {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 19px 130px 19px 130px;
+}
+.container footer .footer-bottom .copyright {
+  font-family: Roboto-regular;
+  font-size: 13px;
+  color: #000000;
+}
+.container footer .footer-bottom .copyright a {
+  text-decoration: none;
+  font-size: 12px;
+  color: #ff4a32;
+}
+.container footer .footer-bottom .payments {
+  display: flex;
+  gap: 6px;
+}/*# sourceMappingURL=main.css.map */
